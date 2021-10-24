@@ -1,4 +1,4 @@
-// Echo2 prints its command-line arguments
+// Echo2 prints its command-line arguments, inefficient way of doing it.
 package main
 
 import (
@@ -19,4 +19,5 @@ func main() {
 		sep = " "
 	}
 	fmt.Println(s)
+	fmt.Println()
 }

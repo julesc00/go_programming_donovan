@@ -1,4 +1,4 @@
-// Echo1 prints its command-line arguments.
+// Echo1 prints its command-line arguments, inefficient way of doing it.
 package main
 
 import (
